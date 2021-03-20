@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li {
+    padding: 0 15px;
+}
+ul li a{
+    font-weight: 500;
+    color: inherit !important;
+}
+ul li a:hover{
+    color: rgb(255, 60, 0) !important;
+}
+.navbar .dark small{
+    font-size: 11px;
+    font-weight: 600;
+}
+.navbar .dark{
+    margin-left: 20px;
+    text-align: center;
+}
+.navbar .dark:hover{
+    cursor: pointer;
+}
+.navbar .dark i:hover{
+    cursor: pointer;
+}
+.darkmode {
+    color: #fff !important;
+    background-color: #22272f !important;
+ }
+.navbar ul li a:hover::after{
+    content: '';
+    border-bottom: 3px solid rgb(255, 60, 0) !important;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    display: block;
+}
+.navbar ul li .active::after{
+    content: '';
+    border-bottom: 3px solid rgb(255, 60, 0) !important;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    display: block;
+}
+.navbar ul li .active{
+    color: rgb(255, 60, 0) !important;
+}
+.card-skill{
+    margin: 20px 0;
+    padding: 15px;
+}
+.card-skill:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.125);
+}
+.section-project ul li{
+    display: inline-block;
+}
+.section-project ul li a{
+    text-decoration: none;
+}
+.section-project ul li{
+    padding: 20px;
+}
+.section-project ul li a:hover::after{
+    content: '';
+    border-bottom: 3px solid rgb(255, 60, 0) !important;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    display: block;
+}
+.section-project .active::after{
+    content: '';
+    border-bottom: 3px solid rgb(255, 60, 0) !important;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    display: block;
+}
+.section-project .card-project .bg-top img{
+    border-radius: 10px !important;
+}
+.section-project .bg-top img{
+    margin: 20px 0;
+}
+.card-testimonials {
+    margin: 20px 0;
+    border-radius: 15px;
+}
+footer a{
+    color: rgb(255, 60, 0);
+}
+/* .section-project .card-project .overlay{
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 10px;
+    opacity: 0;
+}
+.section-project .card-project:hover .overlay{
+    opacity: 1;
+    transition: .7s ease;
+} */
+
+
+/* // Small devices (landscape phones, 300px and up) */
+@media (min-width: 300px) { 
+    .section-banner .text-content h1{
+        font-size: 37px;
+        font-weight: bolder;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .section-banner .text-content p{
+        font-size: 12px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -0px;
+        margin-top: 40px;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .navbar .btn{
+        margin-top: 14px;
+        margin-left: 11px !important;
+    }
+    .navbar button{
+        display: block;
+    }
+    .section-about .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    .section-about .text-content h2{
+        font-weight: bolder;
+    }
+    .section-about .text-content{
+        margin-top: 60px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .text-content p{
+        font-size: 14px;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgb(255, 60, 0);
+        top: 20px;
+        left: -10px;
+    }
+    .section-banner .btn{
+        margin: 15px 0;
+    }
+    .section-tools .tools img{
+        width: 19%;
+        height: 19%;
+        margin: 0px 0;
+    }
+ }
+/* // Small devices (landscape phones, 400px and up) */
+@media (min-width: 400px) { 
+    .section-banner .text-content h1{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -0px;
+        margin-top: 40px;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .navbar .btn{
+        margin-top: 14px;
+        margin-left: 11px !important;
+    }
+    .navbar button{
+        display: block;
+    }
+    .section-about .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    .section-about .text-content h2{
+        font-weight: bolder;
+    }
+    .section-about .text-content{
+        margin-top: 60px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgb(255, 60, 0);
+        top: 20px;
+        left: 20px;
+    }
+    .section-about .text-content p{
+        font-size: 15px;
+    }
+    .section-tools .tools img{
+        width: 19%;
+        height: 19%;
+        margin: 0px 0;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .section-banner .text-content h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -0px;
+        margin-top: 40px;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .navbar .btn{
+        margin-top: 14px;
+        margin-left: 11px !important;
+    }
+    .navbar button{
+        display: block;
+    }
+    .section-about .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    .section-about .text-content h2{
+        font-weight: bolder;
+    }
+    .section-about .text-content{
+        margin-top: 60px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgb(255, 60, 0);
+        top: 20px;
+        left: 20px;
+    }
+    .section-about .text-content p{
+        font-size: 15px;
+    }
+    .section-banner .btn{
+        margin: 0px 0;
+    }
+    .section-tools .tools img{
+        width: 19%;
+        height: 19%;
+        margin: 0px 0;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -0px;
+        margin-top: 40px;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: none;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .navbar .btn{
+        margin-top: 14px;
+        margin-left: 11px !important;
+    }
+    .navbar button{
+        display: block;
+    }
+    .section-about .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    .section-about .text-content h2{
+        font-weight: bolder;
+    }
+    .section-about .text-content{
+        margin-top: 60px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgb(255, 60, 0);
+        top: 20px;
+        left: 20px;
+    }
+    .section-about .text-content p{
+        font-size: 16px;
+    }
+    .section-banner .btn{
+        margin: 0px 0;
+    }
+    .section-tools .tools img{
+        width: 17%;
+        height: 17%;
+        margin: 00px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content{
+        margin-top: 30px;
+        text-align: left;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -120px;
+        margin-top: -20px;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .navbar .btn{
+        margin-top: 0px;
+        margin-left: auto !important;
+    }
+    .navbar button{
+        display: none;
+    }
+    .section-about .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    .section-about .text-content h2{
+        font-weight: bolder;
+    }
+    .section-about .text-content{
+        margin-top: 60px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgb(255, 60, 0);
+        top: 20px;
+        left: 20px;
+    }
+    .section-about .text-content p{
+        font-size: 14px;
+    }
+    .section-banner .btn{
+        margin: 0px 0;
+    }
+    .section-tools .tools img{
+        width: 12%;
+        height: 12%;
+        margin: 0 30px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1{
+        font-size: 53px;
+        font-weight: bolder;
+    }
+    .section-banner .text-content{
+        margin-top: 30px;
+        text-align: left;
+    }
+    .section-banner .text-content p{
+        font-size: 15px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -230px;
+        margin-top: -40px;
+    }
+    .navbar ul li a:hover::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar ul li .active::after{
+        content: '';
+        border-bottom: 3px solid rgb(255, 60, 0) !important;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        display: block;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .navbar .btn{
+        margin-top: 0px;
+        margin-left: auto !important;
+    }
+    .navbar button{
+        display: none;
+    }
+    .section-about .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    .section-about .text-content h2{
+        font-weight: bolder;
+    }
+    .section-about .text-content{
+        margin-top: 120px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .section-about .img-content .kotak{
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgb(255, 60, 0);
+        top: 20px;
+        left: 20px;
+    }
+    .section-about .text-content p{
+        font-size: 16px;
+    }
+    .section-banner .btn{
+        margin:  0;
+    }
+    .section-tools .tools img{
+        width: 12%;
+        height: 12%;
+        margin: 0 30px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }

@@ -410,6 +410,10 @@ footer a{
         margin-top: 30px;
         text-align: left;
     }
+    .section-banner .text-content h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
     .section-banner .text-content p{
         font-size: 15px;
     }
@@ -481,7 +485,7 @@ footer a{
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .section-banner .text-content h1{
-        font-size: 53px;
+        font-size: 55px;
         font-weight: bolder;
     }
     .section-banner .text-content{
